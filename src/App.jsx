@@ -11,7 +11,7 @@ import {
 const photos = {
   campus: 'https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=900&q=85',
   advisors: 'https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=900&q=85',
-  graduate: 'https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=900&q=85',
+  graduate: 'https://media.istockphoto.com/id/896458598/photo/multi-ethnic-teenage-graduates-throw-caps-in-air.jpg?s=612x612&w=0&k=20&c=maS7gX0-oDnUgpEPIPxhNg8vP-CNUevb1VwsYLxir7M=',
   students: 'https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=900&q=85',
 };
 
@@ -111,7 +111,7 @@ function App() {
               </div>
             </div>
             <div className="hero-gallery">
-              <div className="photo photo-campus"><img src={photos.campus} alt="University campus building"/><span className="photo-tag"><GraduationCap size={14}/> Your dream campus</span></div>
+              <div className="photo photo-campus"><img src={photos.campus} alt="University campus building"/><span className="photo-tag"><GraduationCap size={15}/> Your dream campus</span></div>
               <div className="photo photo-advisors"><img src={photos.advisors} alt="Education advisors discussing opportunities"/></div>
               <div className="photo photo-graduate"><img src={photos.graduate} alt="University graduate celebrating"/></div>
               <div className="photo photo-students"><img src={photos.students} alt="Students studying together"/></div>
@@ -211,7 +211,7 @@ function App() {
 
       <footer className="footer">
         <div className="container footer-main">
-          <div className="footer-about"><a className="footer-brand" href="#home"><span>US</span> Admissions</a><p>Helping students take confident steps towards international education through guidance, information and support.</p><div className="socials"><a href="#contact" aria-label="Facebook"><Facebook size={17}/></a><a href="#contact" aria-label="Twitter"><Twitter size={17}/></a><a href="#contact" aria-label="Instagram"><Instagram size={17}/></a><a href="#contact" aria-label="LinkedIn"><Linkedin size={17}/></a></div></div>
+          <div className="footer-about"><a className="footer-brand" href="#home"><span>US</span> Admissions</a><p>Helping students take confident steps towards international education through guidance, information and support.</p><div className="socials"><a href="#contact" aria-label="Facebook"><Facebook size={15}/></a><a href="#contact" aria-label="Twitter"><Twitter size={15}/></a><a href="#contact" aria-label="Instagram"><Instagram size={15}/></a><a href="#contact" aria-label="LinkedIn"><Linkedin size={15}/></a></div></div>
           <div className="footer-links"><h4>EXPLORE</h4>{navLinks.map(([label, href]) => <a key={label} href={href}>{label}</a>)}</div>
           <div className="footer-links"><h4>STUDENT RESOURCES</h4><a href="#careers">Programmes</a><a href="#process">Application process</a><a href="#about">Why the USA</a><a href="#contact">FAQs</a></div>
           <div className="footer-contact"><h4>GET IN TOUCH</h4><a href="mailto:info@usadmissions.com"><Mail size={16}/> info@usadmissions.com</a><a href="tel:+910000000000"><Phone size={16}/> +91 00000 00000</a><span><MapPin size={16}/> India · Supporting students worldwide</span><a className="footer-contact-btn" href="#contact">Book a consultation <ArrowUpRight size={15}/></a></div>

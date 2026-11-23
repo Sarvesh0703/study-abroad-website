@@ -82,7 +82,7 @@ button {
 }
 .desktop-nav a,
 .login-link {
-  font-size: 12px;
+  font-size: 15px;
   font-weight: 600;
   color: #425148;
   transition: 0.2s;
@@ -137,7 +137,7 @@ button {
   align-items: center;
   gap: 10px;
   color: #6d8374;
-  font-size: 10px;
+  font-size: 11px;
   font-weight: 800;
   letter-spacing: 1.8px;
 }
@@ -185,8 +185,8 @@ button {
   gap: 10px;
   padding: 13px 19px;
   border-radius: 5px;
-  font-size: 12px;
-  font-weight: 700;
+  font-size: 14px;
+  font-weight: 600;
   transition:
     transform 0.2s,
     box-shadow 0.2s,
@@ -217,8 +217,8 @@ button {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  font-size: 12px;
-  font-weight: 700;
+  font-size: 14px;
+  font-weight: 600;
   color: var(--green);
 }
 .hero-proof {
@@ -259,10 +259,10 @@ button {
   display: block;
 }
 .hero-proof strong {
-  font-size: 11px;
+  font-size: 12px;
 }
 .hero-proof small {
-  font-size: 10px;
+  font-size: 12px;
   color: var(--muted);
   margin-top: 3px;
 }
@@ -314,7 +314,7 @@ button {
   color: var(--green);
   border-radius: 5px;
   padding: 8px 10px;
-  font-size: 10px;
+  font-size: 11px;
   font-weight: 700;
   display: flex;
   align-items: center;
@@ -351,7 +351,7 @@ button {
   font-size: 11px;
 }
 .floating-card small {
-  font-size: 10px;
+  font-size: 11px;
   color: var(--muted);
   margin-top: 3px;
 }
@@ -491,7 +491,7 @@ button {
   gap: 11px;
   padding: 8px 9px;
   border-radius: 8px;
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 600;
   color: #415147;
   transition: 0.2s;
@@ -540,13 +540,13 @@ button {
   padding: 23px 24px;
 }
 .info-kicker {
-  font-size: 9px;
+  font-size: 10px;
   letter-spacing: 1.5px;
   color: var(--red);
   font-weight: 800;
 }
 .info-card h3 {
-  font-size: 17px;
+  font-size: 18px;
   margin: 10px 0 8px;
 }
 .info-card p {
@@ -560,12 +560,12 @@ button {
   align-items: center;
   gap: 7px;
   color: var(--green);
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 700;
   margin-top: 17px;
 }
 .disclaimer {
-  font-size: 9px;
+  font-size: 11px;
   line-height: 1.6;
   color: #77867b;
   margin: 16px 3px 0;
@@ -637,7 +637,7 @@ button {
   display: flex;
   align-items: center;
   gap: 7px;
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 700;
   color: var(--green);
 }
@@ -655,7 +655,7 @@ button {
   margin-bottom: 9px;
 }
 .faq-intro {
-  font-size: 13px;
+  font-size: 14px;
   color: var(--muted);
   margin: 0 0 27px;
 }
@@ -676,7 +676,7 @@ button {
   background: transparent;
   text-align: left;
   color: #35453a;
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 600;
 }
 .faq-item > button svg {
@@ -687,7 +687,7 @@ button {
   color: var(--green);
 }
 .faq-answer {
-  font-size: 12px;
+  font-size: 13px;
   line-height: 1.8;
   color: var(--muted);
   padding: 0 25px 17px 2px;
@@ -711,7 +711,7 @@ button {
   margin-bottom: 16px;
 }
 .form-overline {
-  font-size: 9px;
+  font-size: 10px;
   letter-spacing: 1.4px;
   color: #849287;
   font-weight: 800;
@@ -740,19 +740,19 @@ button {
   gap: 8px;
 }
 .form-card label {
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 700;
   color: #526157;
   margin-top: 5px;
 }
 .form-card input,
 .form-card select {
-  height: 43px;
+  height: 40px;
   border: 1px solid #dfe6e0;
   border-radius: 6px;
   padding: 0 12px;
   width: 100%;
-  font-size: 11px;
+  font-size: 13px;
   color: #344238;
   background: #fff;
   outline: none;
@@ -782,7 +782,7 @@ button {
   height: 45px;
 }
 .privacy-note {
-  font-size: 9px;
+  font-size: 12px;
   color: #8b978e;
   text-align: center;
   margin-top: 5px;
@@ -820,9 +820,7 @@ button {
   justify-content: space-between;
   gap: 25px;
 }
-.cta-inner .eyebrow {
-  font-size: 9px;
-}
+
 .cta-inner h2 {
   font-size: clamp(21px, 2.5vw, 30px);
   letter-spacing: -0.8px;
@@ -844,9 +842,9 @@ button {
   font-size: 29px;
 }
 .footer-about p {
-  max-width: 260px;
+  max-width: 285px;
   color: #b7c3ba;
-  font-size: 11px;
+  font-size: 13px;
   line-height: 1.9;
   margin: 17px 0 20px;
 }
@@ -855,10 +853,10 @@ button {
   gap: 8px;
 }
 .socials a {
-  width: 32px;
-  height: 32px;
+  width: 34px;
+  height: 34px;
   border: 1px solid #425047;
-  border-radius: 6px;
+  border-radius: 50%;
   display: grid;
   place-items: center;
   color: #d9e2db;
@@ -869,7 +867,7 @@ button {
   border-color: var(--red);
 }
 .footer h4 {
-  font-size: 10px;
+  font-size: 12px;
   letter-spacing: 1.5px;
   margin: 7px 0 22px;
   color: #fff;
@@ -882,7 +880,7 @@ button {
 .footer-links a,
 .footer-contact > a,
 .footer-contact > span {
-  font-size: 11px;
+  font-size: 13px;
   color: #b7c3ba;
   display: flex;
   align-items: center;
@@ -908,7 +906,7 @@ button {
   border-top: 1px solid #29352d;
   padding: 17px 0;
   color: #8e9c92;
-  font-size: 10px;
+  font-size: 12px;
 }
 .footer-bottom .container {
   display: flex;
